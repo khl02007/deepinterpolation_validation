@@ -29,7 +29,8 @@ def main():
         t1 = time.time()
         sorting = ss.run_spykingcircus(recording=recording,
                                        output_folder=f"/hdd/kampff/raw/Recordings/{dataset_id}/spykingcircus",
-                                       docker_image=True, **sorter_params)
+                                       docker_image=True,
+                                       **sorter_params)
         t2 = time.time()
         
         print(f'finished running spykingcircus on recording {dataset_id} in {t2-t1}s.')
@@ -41,7 +42,8 @@ def main():
         t1 = time.time()
         sorting_di = ss.run_spykingcircus(recording=recording_di,
                                           output_folder=f"/hdd/kampff/raw/Recordings/{dataset_id}/spykingcircus_di",
-                                          docker_image=True, **sorter_params)
+                                          docker_image=True,
+                                          **sorter_params)
         t2 = time.time()
         
         print(f'finished running spykingcircus on DI recording {dataset_id} in {t2-t1}s.')

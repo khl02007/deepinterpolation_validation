@@ -14,7 +14,7 @@ dependencies:
   - libuuid=1.0.3=h7f8727e_2
   - ncurses=6.3=h5eee18b_3
   - openssl=1.1.1q=h7f8727e_0
-  - python=3.10.4=h12debd9_0
+  - python=3.9
   - readline=8.1.2=h7f8727e_1
   - sqlite=3.39.2=h5082296_0
   - tk=8.6.12=h1ccaba5_0
